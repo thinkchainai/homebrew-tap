@@ -66,6 +66,11 @@ class Mcpbundles < Formula
     sha256 "3ede829ed8d842f6cd48fc7081d7a41001a56f1f38603f9d49bf3020d59a31ad"
   end
 
+  resource "greenlet" do
+    url "https://files.pythonhosted.org/packages/3c/3f/dbf99fb14bfeb88c28f16729215478c0e265cacd6dc22270c8f31bb6892f/greenlet-3.5.0.tar.gz"
+    sha256 "d419647372241bc68e957bf38d5c1f98852155e4146bd1e4121adea81f4f01e4"
+  end
+
   resource "h11" do
     url "https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz"
     sha256 "4e35b956cf45792e4caa5885e69fba00bdbc6ffafbfa020300e549b208ee5ff1"
@@ -106,6 +111,16 @@ class Mcpbundles < Formula
     sha256 "28cde192929c8e7321de85de1ddbe736f1375148b02f2e17edd840042b1be855"
   end
 
+  resource "playwright-macos-arm64" do
+    url "https://files.pythonhosted.org/packages/e0/40/59d34a756e02f8c670f0fee987d46f7ee53d05447d43cd114ca015cb168c/playwright-1.58.0-py3-none-macosx_11_0_arm64.whl"
+    sha256 "70c763694739d28df71ed578b9c8202bb83e8fe8fb9268c04dd13afe36301f71"
+  end
+
+  resource "playwright-macos-x86_64" do
+    url "https://files.pythonhosted.org/packages/f8/c9/9c6061d5703267f1baae6a4647bfd1862e386fbfdb97d889f6f6ae9e3f64/playwright-1.58.0-py3-none-macosx_10_13_x86_64.whl"
+    sha256 "96e3204aac292ee639edbfdef6298b4be2ea0a55a16b7068df91adac077cc606"
+  end
+
   resource "propcache" do
     url "https://files.pythonhosted.org/packages/9e/da/e9fc233cf63743258bff22b3dfa7ea5baef7b5bc324af47a0ad89b8ffc6f/propcache-0.4.1.tar.gz"
     sha256 "f48107a8c637e80362555f37ecf49abe20370e557cc4ab374f04ec4423c97c3d"
@@ -114,6 +129,11 @@ class Mcpbundles < Formula
   resource "pycparser" do
     url "https://files.pythonhosted.org/packages/1b/7d/92392ff7815c21062bea51aa7b87d45576f649f16458d78b7cf94b9ab2e6/pycparser-3.0.tar.gz"
     sha256 "600f49d217304a5902ac3c37e1281c9fe94e4d0489de643a9504c5cdfdfc6b29"
+  end
+
+  resource "pyee" do
+    url "https://files.pythonhosted.org/packages/8b/04/e7c1fe4dc78a6fdbfd6c337b1c3732ff543b8a397683ab38378447baa331/pyee-13.0.1.tar.gz"
+    sha256 "0b931f7c14535667ed4c7e0d531716368715e860b988770fc7eb8578d1f67fc8"
   end
 
   resource "Pygments" do
@@ -162,11 +182,16 @@ class Mcpbundles < Formula
   end
 
   def install
-    virtualenv_install_with_resources
+    venv = virtualenv_create(libexec, "python3.12")
+    wheel_resource = Hardware::CPU.arm? ? resource("playwright-macos-arm64") : resource("playwright-macos-x86_64")
+    venv.pip_install resources.reject { |r| r.name.start_with?("playwright-macos-") }
+    wheel_resource.stage { venv.pip_install Pathname.pwd/wheel_resource.downloader.basename }
+    venv.pip_install_and_link buildpath
   end
 
   test do
     assert_match "Usage:", shell_output("#{bin}/mcpbundles --help")
     assert_match "--server", shell_output("#{bin}/mcpbundles call --help")
+    system libexec/"bin/python", "-c", "import playwright"
   end
 end
