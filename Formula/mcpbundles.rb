@@ -3,8 +3,8 @@ class Mcpbundles < Formula
 
   desc "CLI for connecting AI tools to MCP servers"
   homepage "https://pypi.org/project/mcpbundles/"
-  url "https://files.pythonhosted.org/packages/b8/7a/63c3ff0bf4bc5db24ba9e83b05e94341b460070f32055d73b26177533dbb/mcpbundles-1.5.20.tar.gz"
-  sha256 "af2a9706d9bcc7566aca17ab5242070b06c9bebee544a1eb9f722f5da842496f"
+  url "https://files.pythonhosted.org/packages/0c/c9/187172f43f437e7f0bfb1bc6f56f9f4e979e6a86ba77e91b43e0afe13036/mcpbundles-1.5.21.tar.gz"
+  sha256 "3bc1a8e5d146066286a7175c965332ffb6a77024c5813028608932ef206eb0a9"
   license "MIT"
 
   depends_on "pkgconf" => :build
