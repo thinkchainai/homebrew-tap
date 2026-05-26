@@ -3,8 +3,8 @@ class Mcpbundles < Formula
 
   desc "CLI for connecting AI tools to MCP servers"
   homepage "https://pypi.org/project/mcpbundles/"
-  url "https://files.pythonhosted.org/packages/df/16/19595121f0f02ab9fa53691e96f45c120cbfae91e7642bc803f2965169cd/mcpbundles-1.5.40.tar.gz"
-  sha256 "0707cbb290aaffdeb3d2076cd50753760280408088490e0df8902434a8c1a863"
+  url "https://files.pythonhosted.org/packages/c8/c7/0027271d563319d8097769da2815abcfd58abc423e2850f04f8d64287c0d/mcpbundles-1.5.41.tar.gz"
+  sha256 "40dd046b52d952d38c2bc08cfc7305f12b950cbe0ca3b58cee16f33053108541"
   license "MIT"
 
   depends_on "pkgconf" => :build
@@ -165,6 +165,7 @@ class Mcpbundles < Formula
     url "https://files.pythonhosted.org/packages/79/12/1e8f37460ea0f7eb59c221fdaf0ed75e7ac43e97f8093b9c6f411df50a78/yarl-1.24.2.tar.gz"
     sha256 "9ac374123c6fd7abf64d1fec93962b0bd4ee2c19751755a762a72dd96c0378f8"
   end
+
 
   resource "playwright" do
     on_arm do
