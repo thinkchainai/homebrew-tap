@@ -3,8 +3,8 @@ class Mcpbundles < Formula
 
   desc "CLI for connecting AI tools to MCP servers"
   homepage "https://pypi.org/project/mcpbundles/"
-  url "https://files.pythonhosted.org/packages/48/24/a0bdc1b0ff77dfbefdb166f6dc93f20b6c41f97ec8ea42580760796d7658/mcpbundles-1.5.43.tar.gz"
-  sha256 "3279ddd0a20b24e46a1edd24b6c459d7039c3ad1c85e33415fa0f71022fea138"
+  url "https://files.pythonhosted.org/packages/f8/6a/853cb0940c4b6a5f21d2af806ea38e69ef84d801b74a95234f1de15c34f8/mcpbundles-1.5.47.tar.gz"
+  sha256 "51f2a2ef9730d418f5a0d05c67bfc0318235919a6fcce201402886c9e62d7975"
   license "MIT"
 
   depends_on "pkgconf" => :build
@@ -82,8 +82,8 @@ class Mcpbundles < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/1a/88/bcf9709822fe69d02c2a6a77956c98ce6ea8ca8767a9aadcedc7eb6a2390/idna-3.16.tar.gz"
-    sha256 "d7a6da03db833450fca25d2358ac9ff06cd624577a4aea3a596d5c0f77b8e03d"
+    url "https://files.pythonhosted.org/packages/b9/28/99c51f664567218d824af024c0251650fb27e4ca066df188dab0769c5b91/idna-3.17.tar.gz"
+    sha256 "5eb0cb53bc467c12eadcf6de83163ad8527cec9416f44b9b61b19caedad2b87f"
   end
 
   resource "markdown-it-py" do
@@ -137,8 +137,8 @@ class Mcpbundles < Formula
   end
 
   resource "sentry-sdk" do
-    url "https://files.pythonhosted.org/packages/54/a2/2e6c090db384cc515069f4f85542bd5baf6786852073020ea73d4a76d3ea/sentry_sdk-2.60.0.tar.gz"
-    sha256 "0bd25e54e78ca02d0be512529fa644bbbf9e8470d7b26371294012d4ca93c978"
+    url "https://files.pythonhosted.org/packages/52/4d/3c66e6045bd2071256b6b6fdcb0cc02b86ce54b2acc2ceac79af8e0efbb5/sentry_sdk-2.61.0.tar.gz"
+    sha256 "1ca9b4bb777eb5be67004edab7eb894f21c6301f1d05ed64966719ad5d1764ce"
   end
 
   resource "typing-extensions" do
