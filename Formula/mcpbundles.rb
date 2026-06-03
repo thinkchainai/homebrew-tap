@@ -3,8 +3,8 @@ class Mcpbundles < Formula
 
   desc "CLI for connecting AI tools to MCP servers"
   homepage "https://pypi.org/project/mcpbundles/"
-  url "https://files.pythonhosted.org/packages/ea/ba/3a80374c6ddd39ea6127d728145850c907823f5b83bc05fe19f7664d0231/mcpbundles-1.5.49.tar.gz"
-  sha256 "a57f5c5772e18509b621c3479c402c20d75210b45990719af5a196b2bad21392"
+  url "https://files.pythonhosted.org/packages/c9/1e/dee2af95f6640ef4c11e4fb61a3529019a7c701e6115899f83941a9bdd10/mcpbundles-1.5.50.tar.gz"
+  sha256 "d2c2d3ede5fe83fd4a02414d4b25a19a20779051b13fd567059f77b4d4dc5bb6"
   license "MIT"
 
   depends_on "pkgconf" => :build
@@ -17,8 +17,8 @@ class Mcpbundles < Formula
   end
 
   resource "aiohttp" do
-    url "https://files.pythonhosted.org/packages/77/9a/152096d4808df8e4268befa55fba462f440f14beab85e8ad9bf990516918/aiohttp-3.13.5.tar.gz"
-    sha256 "9d98cc980ecc96be6eb4c1994ce35d28d8b1f5e5208a23b421187d1209dbb7d1"
+    url "https://files.pythonhosted.org/packages/ee/ab/93ce242f899b68c51b0578c027aafa791ab3614cb9345fa5d37b5f5c8e3e/aiohttp-3.14.0.tar.gz"
+    sha256 "2882de819734c715fd1b9c11c97e09fa020d14438203d1d354d8ed1702791c9b"
   end
 
   resource "aiosignal" do
@@ -137,8 +137,8 @@ class Mcpbundles < Formula
   end
 
   resource "sentry-sdk" do
-    url "https://files.pythonhosted.org/packages/52/4d/3c66e6045bd2071256b6b6fdcb0cc02b86ce54b2acc2ceac79af8e0efbb5/sentry_sdk-2.61.0.tar.gz"
-    sha256 "1ca9b4bb777eb5be67004edab7eb894f21c6301f1d05ed64966719ad5d1764ce"
+    url "https://files.pythonhosted.org/packages/63/3b/4bc6b348bbd331daa14d4babe9f2b99bc854f4da41560eefb9488d78481d/sentry_sdk-2.61.1.tar.gz"
+    sha256 "9c6adccb3feefa9ba032c8d295ca477575c2f11896046a2b0ad686c47c4af555"
   end
 
   resource "typing-extensions" do
