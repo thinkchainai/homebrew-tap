@@ -3,8 +3,8 @@ class Mcpbundles < Formula
 
   desc "CLI for connecting AI tools to MCP servers"
   homepage "https://pypi.org/project/mcpbundles/"
-  url "https://files.pythonhosted.org/packages/c9/1e/dee2af95f6640ef4c11e4fb61a3529019a7c701e6115899f83941a9bdd10/mcpbundles-1.5.50.tar.gz"
-  sha256 "d2c2d3ede5fe83fd4a02414d4b25a19a20779051b13fd567059f77b4d4dc5bb6"
+  url "https://files.pythonhosted.org/packages/a2/38/4edf8f68dba834553d25bc0d9d02fc411d85d67f05f8ad4ac603deb48267/mcpbundles-1.5.52.tar.gz"
+  sha256 "89bd7908be35b3f8d2f5e26581669cf3ebffaee931e39bc125b2f0ed25fbffa4"
   license "MIT"
 
   depends_on "pkgconf" => :build
@@ -82,8 +82,8 @@ class Mcpbundles < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/b9/28/99c51f664567218d824af024c0251650fb27e4ca066df188dab0769c5b91/idna-3.17.tar.gz"
-    sha256 "5eb0cb53bc467c12eadcf6de83163ad8527cec9416f44b9b61b19caedad2b87f"
+    url "https://files.pythonhosted.org/packages/cd/63/9496c57188a2ee585e0f1db071d75089a11e98aa86eb99d9d7618fc1edce/idna-3.18.tar.gz"
+    sha256 "ffb385a7e039654cef1ab9ef32c6fafe283c0c0467bba1d9029738ce4a14a848"
   end
 
   resource "markdown-it-py" do
@@ -152,8 +152,8 @@ class Mcpbundles < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/2c/ee/afaf0f85a9a18fe47a67f1e4422ed6cf1fe642f0ae0a2f81166231303c52/wcwidth-0.7.0.tar.gz"
-    sha256 "90e3a7ea092341c44b99562e75d09e4d5160fe7a3974c6fb842a101a95e7eed0"
+    url "https://files.pythonhosted.org/packages/af/44/c833e6b746ffb654e9abacf7ad6c2480a9c8c42e9637c1ae849964fb4dde/wcwidth-0.8.0.tar.gz"
+    sha256 "68a882ff6d14e3d14e0cae590b96a0551be64ce4905408112a8254434a1bdf69"
   end
 
   resource "websockets" do
