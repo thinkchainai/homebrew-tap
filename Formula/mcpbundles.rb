@@ -3,8 +3,8 @@ class Mcpbundles < Formula
 
   desc "CLI for connecting AI tools to MCP servers"
   homepage "https://pypi.org/project/mcpbundles/"
-  url "https://files.pythonhosted.org/packages/a2/38/4edf8f68dba834553d25bc0d9d02fc411d85d67f05f8ad4ac603deb48267/mcpbundles-1.5.52.tar.gz"
-  sha256 "89bd7908be35b3f8d2f5e26581669cf3ebffaee931e39bc125b2f0ed25fbffa4"
+  url "https://files.pythonhosted.org/packages/a5/47/cd0ebfbfba78266dbdcbc1b3aafe067dde20c54a1c7ade99a0f293bb5627/mcpbundles-1.5.53.tar.gz"
+  sha256 "de002127165980b48c3dd345511ba3ba6f4831364877c69c177c272133151f1f"
   license "MIT"
 
   depends_on "pkgconf" => :build
@@ -17,8 +17,8 @@ class Mcpbundles < Formula
   end
 
   resource "aiohttp" do
-    url "https://files.pythonhosted.org/packages/ee/ab/93ce242f899b68c51b0578c027aafa791ab3614cb9345fa5d37b5f5c8e3e/aiohttp-3.14.0.tar.gz"
-    sha256 "2882de819734c715fd1b9c11c97e09fa020d14438203d1d354d8ed1702791c9b"
+    url "https://files.pythonhosted.org/packages/82/78/8ea7308cac6934de8c74a14f3d5f65d1c89287426688be79538d0e5c013d/aiohttp-3.14.1.tar.gz"
+    sha256 "307f2cff90a764d329e77040603fa032db89c5c24fdad50c4c15334cba744035"
   end
 
   resource "aiosignal" do
@@ -152,8 +152,8 @@ class Mcpbundles < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/af/44/c833e6b746ffb654e9abacf7ad6c2480a9c8c42e9637c1ae849964fb4dde/wcwidth-0.8.0.tar.gz"
-    sha256 "68a882ff6d14e3d14e0cae590b96a0551be64ce4905408112a8254434a1bdf69"
+    url "https://files.pythonhosted.org/packages/49/b4/51fe890511f0f242d07cb1ebe6a5b6db417262b9d2568b460347c57d95cc/wcwidth-0.8.1.tar.gz"
+    sha256 "faf5b4a5366a72dc49cad48cdf21f52bdf63bdda995178e483ba247ff79089b9"
   end
 
   resource "websockets" do
