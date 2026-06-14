@@ -3,8 +3,8 @@ class Mcpbundles < Formula
 
   desc "CLI for connecting AI tools to MCP servers"
   homepage "https://pypi.org/project/mcpbundles/"
-  url "https://files.pythonhosted.org/packages/bd/3b/f662ea58f09eaf6adf702bb181c6e7aac4ff22f8bfddbb158cded411e0e2/mcpbundles-1.5.54.tar.gz"
-  sha256 "3d4be5d85aa92e302bd81e44961df18443b0f039e0258852a99ab80e8c21d1ae"
+  url "https://files.pythonhosted.org/packages/96/10/a60730348af51d81ee43445e5d3a6260e329e0302ada27153c01021bff9f/mcpbundles-1.5.56.tar.gz"
+  sha256 "087cd26656b8bb87d504a74d8d93b91441972079f7cd409841f9a79e3b4c9994"
   license "MIT"
 
   depends_on "pkgconf" => :build
@@ -57,8 +57,8 @@ class Mcpbundles < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/9f/a9/db8f313fdcd85d767d4973515e1db101f9c71f95fced83233de224673757/cryptography-48.0.0.tar.gz"
-    sha256 "5c3932f4436d1cccb036cb0eaef46e6e2db91035166f1ad6505c3c9d5a635920"
+    url "https://files.pythonhosted.org/packages/12/45/870e7f4bef50e5f53b9f51d4428aee5290eedf58ba443f16b1ebb7ab8e66/cryptography-48.0.1.tar.gz"
+    sha256 "266f4ee051abb2f725b74ef8072b521ce1feacf685a3364fa6a6b45548db791a"
   end
 
   resource "frozenlist" do
