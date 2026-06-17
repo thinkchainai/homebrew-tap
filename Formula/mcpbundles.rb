@@ -3,8 +3,8 @@ class Mcpbundles < Formula
 
   desc "CLI for connecting AI tools to MCP servers"
   homepage "https://pypi.org/project/mcpbundles/"
-  url "https://files.pythonhosted.org/packages/96/10/a60730348af51d81ee43445e5d3a6260e329e0302ada27153c01021bff9f/mcpbundles-1.5.56.tar.gz"
-  sha256 "087cd26656b8bb87d504a74d8d93b91441972079f7cd409841f9a79e3b4c9994"
+  url "https://files.pythonhosted.org/packages/46/b4/fd5bfc6d9d5924eacd37a0eb2f458c180806b20b0de43c81c30a267692b0/mcpbundles-1.5.58.tar.gz"
+  sha256 "bc3c93c3a086188fc5eb325b6a879e4ae121dda9de048ca9bc46959d35e5606f"
   license "MIT"
 
   depends_on "pkgconf" => :build
@@ -27,8 +27,8 @@ class Mcpbundles < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/19/14/2c5dd9f512b66549ae92767a9c7b330ae88e1932ca57876909410251fe13/anyio-4.13.0.tar.gz"
-    sha256 "334b70e641fd2221c1505b3890c69882fe4a2df910cba14d97019b90b24439dc"
+    url "https://files.pythonhosted.org/packages/1c/b5/001890774a9552aff22502b8da382593109ce0c95314abaebbb116567545/anyio-4.14.0.tar.gz"
+    sha256 "b47c1f9ccf73e67021df785332508f99379c68fa7d0684e8e3492cb1d4b23f89"
   end
 
   resource "attrs" do
