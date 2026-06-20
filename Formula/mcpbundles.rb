@@ -3,8 +3,8 @@ class Mcpbundles < Formula
 
   desc "CLI for connecting AI tools to MCP servers"
   homepage "https://pypi.org/project/mcpbundles/"
-  url "https://files.pythonhosted.org/packages/93/ff/e2e886e9fcddb135757c035c8643285853f4316201aff8d94388ca5d27e9/mcpbundles-1.5.59.tar.gz"
-  sha256 "aaacef9e5206f1da9dadeda8af0e21c9007077484911437d1ef9b6a50fed3937"
+  url "https://files.pythonhosted.org/packages/52/3b/d6ae5aac0ba3bff1dbeca595d4f13201f234c228ce2e651bcede1015908a/mcpbundles-1.5.60.tar.gz"
+  sha256 "ef8928185e626cb9d561bec3461018e86e7b6207ce3c6b01b4df292cee1fa69b"
   license "MIT"
 
   depends_on "pkgconf" => :build
@@ -37,8 +37,8 @@ class Mcpbundles < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/f3/ce/ee2ecad540810a79593028e88299baeae54d346cc7a0d94b6199988b89b1/certifi-2026.5.20.tar.gz"
-    sha256 "69dea482ab64caa7b9f6aba1c6bf48bb6a5448d1c0f1b17ab42ad8c763a5344d"
+    url "https://files.pythonhosted.org/packages/c9/c7/424b75da314c1045981bd9777432fad05a9e0c69daa4ed7e308bbaffe405/certifi-2026.6.17.tar.gz"
+    sha256 "024c88eeec92ca068db80f02b8b07c9cef7b9fe261d1d535abfd5abd6f6af432"
   end
 
   resource "cffi" do
