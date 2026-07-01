@@ -3,8 +3,8 @@ class Mcpbundles < Formula
 
   desc "CLI for connecting AI tools to MCP servers"
   homepage "https://pypi.org/project/mcpbundles/"
-  url "https://files.pythonhosted.org/packages/13/a7/a7f142a38a6d8902ec6b12da7562226373d8621426964872b856e8f1a3a3/mcpbundles-1.5.77.tar.gz"
-  sha256 "56d53fce5f9a2bb05b1cd3915d1a59d064a595b7be2f7dba091d864dc1ad4c5a"
+  url "https://files.pythonhosted.org/packages/9f/6e/86061700dbf6addfb1499d7c1e8492cff4e945f6c66631ac023c8bad8c8e/mcpbundles-1.5.78.tar.gz"
+  sha256 "4572209f3b2e34441165dc10a941181d90f0be4160b5da0988d79d72ed3e10f2"
   license "MIT"
 
   depends_on "pkgconf" => :build
@@ -137,8 +137,8 @@ class Mcpbundles < Formula
   end
 
   resource "sentry-sdk" do
-    url "https://files.pythonhosted.org/packages/ba/c8/b3c970a5b186722d276cd40a05b3254e03bccc0208560aff20f612e018e8/sentry_sdk-2.63.0.tar.gz"
-    sha256 "2a1502bf864769275dbc8c2c9fc7a0f7f5e18358180b615d262d13a31ffba216"
+    url "https://files.pythonhosted.org/packages/60/31/b7341f156a5f6f36f0b4845d6f1c28a2ae4799171dba7007f3a1e9b234b4/sentry_sdk-2.64.0.tar.gz"
+    sha256 "68be2c29e14ae310f8a39e1a79916b6d85c6cb41dcce789d14ff05fe293e4c55"
   end
 
   resource "typing-extensions" do
@@ -152,8 +152,8 @@ class Mcpbundles < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/49/b4/51fe890511f0f242d07cb1ebe6a5b6db417262b9d2568b460347c57d95cc/wcwidth-0.8.1.tar.gz"
-    sha256 "faf5b4a5366a72dc49cad48cdf21f52bdf63bdda995178e483ba247ff79089b9"
+    url "https://files.pythonhosted.org/packages/34/74/c6428f875774288bec1396f5bfcbc2d925700a4dad61727fd5f2b12f249d/wcwidth-0.8.2.tar.gz"
+    sha256 "91fbef97204b96a3d4d421609b80340b760cf33e26da123ff243d76b1fda8dda"
   end
 
   resource "websockets" do
