@@ -3,8 +3,8 @@ class Mcpbundles < Formula
 
   desc "CLI for connecting AI tools to MCP servers"
   homepage "https://pypi.org/project/mcpbundles/"
-  url "https://files.pythonhosted.org/packages/b5/0e/a9e76a7c2c74c04f2faa79c63919ebf1670e7997b72ebc84b78438dd9009/mcpbundles-1.5.79.tar.gz"
-  sha256 "55764647126aeaf00208d4cf4f2c0750f501f920907d977b6955c9c5585ec22d"
+  url "https://files.pythonhosted.org/packages/62/e8/1f70a5cbe07649f4939997fe2c182080b63525ce38151f28891f8d39a06e/mcpbundles-1.5.83.tar.gz"
+  sha256 "e7d03b96267f8aabd7f0a02e22a5f5ad69cae704ab6807963bb64629fe289777"
   license "MIT"
 
   depends_on "pkgconf" => :build
@@ -42,8 +42,8 @@ class Mcpbundles < Formula
   end
 
   resource "cffi" do
-    url "https://files.pythonhosted.org/packages/eb/56/b1ba7935a17738ae8453301356628e8147c79dbb825bcbc73dc7401f9846/cffi-2.0.0.tar.gz"
-    sha256 "44d1b5909021139fe36001ae048dbdde8214afa20200eda0f64c068cac5d5529"
+    url "https://files.pythonhosted.org/packages/57/5f/ff100cae70ebe9d8df1c01a00e510e45d9adb5c1fdda84791b199141de97/cffi-2.1.0.tar.gz"
+    sha256 "efc1cdd798b1aaf39b4610bba7aad28c9bea9b910f25c784ccf9ec1fa719d1f9"
   end
 
   resource "charset-normalizer" do
