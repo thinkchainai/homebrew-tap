@@ -3,8 +3,8 @@ class Mcpbundles < Formula
 
   desc "CLI for connecting AI tools to MCP servers"
   homepage "https://pypi.org/project/mcpbundles/"
-  url "https://files.pythonhosted.org/packages/4b/d4/8300f6c27cd24268f9bde346e4b24ecb459af85405cfe3adfeb6f0b6d2c9/mcpbundles-1.5.92.tar.gz"
-  sha256 "5fb8a2e89a06833a2ca2ce2a3edc5814dee67bd74a645836ec51e5dea8c2193d"
+  url "https://files.pythonhosted.org/packages/ef/32/ed3d69fa62c523cbb3c5f131e4232e6f80e73d14741620f1bc94c90f5d2f/mcpbundles-1.5.93.tar.gz"
+  sha256 "853dacc9bbf5faa336e6e95ef7ae9843bc50fdc2adc8bf989662152dca0f96bb"
   license "MIT"
 
   depends_on "pkgconf" => :build
@@ -17,8 +17,8 @@ class Mcpbundles < Formula
   end
 
   resource "aiohttp" do
-    url "https://files.pythonhosted.org/packages/82/78/8ea7308cac6934de8c74a14f3d5f65d1c89287426688be79538d0e5c013d/aiohttp-3.14.1.tar.gz"
-    sha256 "307f2cff90a764d329e77040603fa032db89c5c24fdad50c4c15334cba744035"
+    url "https://files.pythonhosted.org/packages/1d/cc/58f26f118d8099f84e009ce560b9148a3f803e63fa8473b57feb67241875/aiohttp-3.14.2.tar.gz"
+    sha256 "f96821eb2ae2f12b0dfa799eafbf221f5621a9220b457b4744a269a63a5f3a6c"
   end
 
   resource "aiosignal" do
@@ -157,13 +157,13 @@ class Mcpbundles < Formula
   end
 
   resource "websockets" do
-    url "https://files.pythonhosted.org/packages/8c/02/b9a097e1e16fee4e2fd1ec8c39f6a9c5d6257bae8fa12640caf869f54436/websockets-16.1.tar.gz"
-    sha256 "299468cbe42e2b9981134c7c51d99387d8a7bf562b00183b3eec53f882846dad"
+    url "https://files.pythonhosted.org/packages/21/f7/bc3a25c5ec26ce62ce487690becc2f3710bbc7b33338f005ad390db0b986/websockets-16.1.1.tar.gz"
+    sha256 "db234eda965dcce15df96bb9709f587cd87d4d52aaf0e80e2f34ec04c7670c57"
   end
 
   resource "yarl" do
-    url "https://files.pythonhosted.org/packages/79/12/1e8f37460ea0f7eb59c221fdaf0ed75e7ac43e97f8093b9c6f411df50a78/yarl-1.24.2.tar.gz"
-    sha256 "9ac374123c6fd7abf64d1fec93962b0bd4ee2c19751755a762a72dd96c0378f8"
+    url "https://files.pythonhosted.org/packages/31/33/ebe9e3d1f86c7a0b51094c0a146392045ca1631d2664889539dec8088a33/yarl-1.24.5.tar.gz"
+    sha256 "e81b83143bee16329c23db3c1b2d82b29892fcbcb849186d2f6e98a5abe9a57f"
   end
 
   resource "playwright" do
