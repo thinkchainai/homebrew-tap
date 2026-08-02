@@ -3,8 +3,8 @@ class Mcpbundles < Formula
 
   desc "CLI for connecting AI tools to MCP servers"
   homepage "https://pypi.org/project/mcpbundles/"
-  url "https://files.pythonhosted.org/packages/c9/b3/46064308528938927329d2de63149b7cb7501407600237d885a82538ea1b/mcpbundles-1.5.96.tar.gz"
-  sha256 "6660abc3e9288b49fe689f0797454df7c7408f352af608ac7de77ae9f9df2503"
+  url "https://files.pythonhosted.org/packages/8e/f0/6d0510f2540c50756a54f442a7eb47ad3338028dbf16ce43680299a7d017/mcpbundles-1.5.97.tar.gz"
+  sha256 "493c652c3fcce37daa4e21789823f7ab9a0ec67d1d9270fb9fcfbd1123e2bb4b"
   license "MIT"
 
   depends_on "pkgconf" => :build
@@ -157,8 +157,8 @@ class Mcpbundles < Formula
   end
 
   resource "websockets" do
-    url "https://files.pythonhosted.org/packages/21/f7/bc3a25c5ec26ce62ce487690becc2f3710bbc7b33338f005ad390db0b986/websockets-16.1.1.tar.gz"
-    sha256 "db234eda965dcce15df96bb9709f587cd87d4d52aaf0e80e2f34ec04c7670c57"
+    url "https://files.pythonhosted.org/packages/f7/96/e01084f83a64bcb3a27994bd0cb0db68ff29d9c6707fae37ec19b18ba990/websockets-17.0.1.tar.gz"
+    sha256 "5baa9bc0dfbae8c507e51c8cf1b6d4628086f7a87bbd3a9952bd5f035451f1cc"
   end
 
   resource "yarl" do
