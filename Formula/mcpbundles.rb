@@ -3,8 +3,8 @@ class Mcpbundles < Formula
 
   desc "CLI for connecting AI tools to MCP servers"
   homepage "https://pypi.org/project/mcpbundles/"
-  url "https://files.pythonhosted.org/packages/4b/2c/d943d2208a89287ce09fc3a000f7964dee0d4c261542c05cfd2180e52cce/mcpbundles-1.5.102.tar.gz"
-  sha256 "0e8173311eaf48f8d6445afa41f8a94e7d5f995f0dd141b2996c739a21ffea22"
+  url "https://files.pythonhosted.org/packages/57/2b/55458049031ad1dd7019652b0b00f8319bcf48bee98a08261a0f6feb005c/mcpbundles-1.5.103.tar.gz"
+  sha256 "08e22e0a81ce96c0d5f3cbc65106c84a60059133af6b70b84cbfcfec96b22e09"
   license "MIT"
 
   depends_on "pkgconf" => :build
@@ -52,8 +52,8 @@ class Mcpbundles < Formula
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/76/d4/81420972a676e8ffea40450d8c8c92943e7218a78fe9b64359836cc9876b/click-8.4.2.tar.gz"
-    sha256 "9a6cea6e60b17ebe0a44c5cc636d94f09bd66142c1cd7d8b4cd731c4917a15f6"
+    url "https://files.pythonhosted.org/packages/c7/0e/7fa0ef50764b67090eca4114772a2abf8b6148198475e54c660b97caeee6/click-8.5.0.tar.gz"
+    sha256 "ba0d2089de75ea0310e2dde03160e6ca10009947fb95a182f9b54021bb272e34"
   end
 
   resource "cryptography" do
@@ -137,8 +137,8 @@ class Mcpbundles < Formula
   end
 
   resource "sentry-sdk" do
-    url "https://files.pythonhosted.org/packages/5b/94/23b7dd072acb9628907bd3f4fbf61794a7b12a9db8f33c1276f70ae5ac92/sentry_sdk-2.68.0.tar.gz"
-    sha256 "648c58e9887311a03470a41539e24bdbbf64a30ca4f5336f7e3dcc87276400b3"
+    url "https://files.pythonhosted.org/packages/9a/e7/c504a4bd2d95df2e0ab73714a9161ff1cf6ff1486922685e5f46dfd9eba8/sentry_sdk-2.68.1.tar.gz"
+    sha256 "6a97895230b04bc35d4d8d2e51e3b9e21902dfb0086ccf1f131a80c15c7b997a"
   end
 
   resource "typing-extensions" do
@@ -157,8 +157,8 @@ class Mcpbundles < Formula
   end
 
   resource "websockets" do
-    url "https://files.pythonhosted.org/packages/f7/96/e01084f83a64bcb3a27994bd0cb0db68ff29d9c6707fae37ec19b18ba990/websockets-17.0.1.tar.gz"
-    sha256 "5baa9bc0dfbae8c507e51c8cf1b6d4628086f7a87bbd3a9952bd5f035451f1cc"
+    url "https://files.pythonhosted.org/packages/18/72/fba934cb3dff7a85d811820efffcd141ddd52b5a2a01637f64551373ff4d/websockets-17.1.tar.gz"
+    sha256 "acfea4c20bf54384883ea33b1240fc1db4f52e190823a4e2b334bc3e8bfca96a"
   end
 
   resource "yarl" do
