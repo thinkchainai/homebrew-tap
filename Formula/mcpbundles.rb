@@ -3,8 +3,8 @@ class Mcpbundles < Formula
 
   desc "CLI for connecting AI tools to MCP servers"
   homepage "https://pypi.org/project/mcpbundles/"
-  url "https://files.pythonhosted.org/packages/57/2b/55458049031ad1dd7019652b0b00f8319bcf48bee98a08261a0f6feb005c/mcpbundles-1.5.103.tar.gz"
-  sha256 "08e22e0a81ce96c0d5f3cbc65106c84a60059133af6b70b84cbfcfec96b22e09"
+  url "https://files.pythonhosted.org/packages/2e/38/656803861e65014a2adfe7096a36991b48f762af260c54ddb6ea12199c9e/mcpbundles-1.5.104.tar.gz"
+  sha256 "eecf10f407bf2fd4d6dc7e3d6252daad2e5f95eaeab2cd1c34794f26b3b87bc6"
   license "MIT"
 
   depends_on "pkgconf" => :build
@@ -152,8 +152,8 @@ class Mcpbundles < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/34/74/c6428f875774288bec1396f5bfcbc2d925700a4dad61727fd5f2b12f249d/wcwidth-0.8.2.tar.gz"
-    sha256 "91fbef97204b96a3d4d421609b80340b760cf33e26da123ff243d76b1fda8dda"
+    url "https://files.pythonhosted.org/packages/36/57/ed58088fafdf4c55a0ad6bde846502567645424d7ebf325230b9237f4085/wcwidth-0.8.3.tar.gz"
+    sha256 "d128512515fbf4612e0ff21fd6380399210318b7b54a9af59dff8454cf9730eb"
   end
 
   resource "websockets" do
