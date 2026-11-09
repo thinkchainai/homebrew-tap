@@ -3,8 +3,8 @@ class Mcpbundles < Formula
 
   desc "CLI for connecting AI tools to MCP servers"
   homepage "https://pypi.org/project/mcpbundles/"
-  url "https://files.pythonhosted.org/packages/a7/a0/bcbe90b3328f4e132abbfb9ca725bf40c41a0b376ae64219db4bff116dc5/mcpbundles-1.5.107.tar.gz"
-  sha256 "f9f4a81d154dcb0138563488011d86fefe492b3117b72fa8b7100a1e3ad8b27a"
+  url "https://files.pythonhosted.org/packages/cd/7c/1f6489706faad40f4d560b2db0084faac977098f03e425a27a0f39c35b62/mcpbundles-1.5.109.tar.gz"
+  sha256 "e2845a274dc5bdc87c461963ce81d18e0a3dfafbd9af81be9b445d2590668ec6"
   license "MIT"
 
   depends_on "pkgconf" => :build
@@ -17,8 +17,8 @@ class Mcpbundles < Formula
   end
 
   resource "aiohttp" do
-    url "https://files.pythonhosted.org/packages/58/d9/22ce5786ac0c1653ae8b6c23bded02c1686d11f0dbb45b31ce128e0df985/aiohttp-3.14.3.tar.gz"
-    sha256 "9491196535a88924a60afd5b5f434b5b203b6cc616250878dbdb223a8f7844bc"
+    url "https://files.pythonhosted.org/packages/6c/4c/bdccd81e9ee225b69c60e7766c9a5b05364f118f4d383713b89a682d772d/aiohttp-3.14.5.tar.gz"
+    sha256 "5558a7f5a05af9ecf744af91e5baefc436f93c9333e656c27ec253f9a6bbe178"
   end
 
   resource "aiosignal" do
@@ -27,8 +27,8 @@ class Mcpbundles < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/a9/d2/f4d173e22df740bc37b1db102b386ba719b66e95b0f0d751f556b387e6d2/anyio-4.15.1.tar.gz"
-    sha256 "9f28306018cbd6d329e64a36d58256edff76dd996fe423bc957326e578b82a94"
+    url "https://files.pythonhosted.org/packages/a1/98/7e457a3b014976887a050561955c0b76e1e7e2d6e27b78ecef2ef80518f2/anyio-4.16.0.tar.gz"
+    sha256 "59bb03251907983d1603d27c3087ddb1e93299ea2163adcdba37899a4fb12ffb"
   end
 
   resource "attrs" do
@@ -37,8 +37,8 @@ class Mcpbundles < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz"
-    sha256 "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55"
+    url "https://files.pythonhosted.org/packages/fd/11/b524cbd9bbdaca58608e4cf4053fd463417549e1959fa8d3aa18319f9555/certifi-2026.10.23.tar.gz"
+    sha256 "a9895e6e2758b371e0545e321a3a8fd1fcfd9829ada8824a936dfb16aaaf36cd"
   end
 
   resource "cffi" do
@@ -47,13 +47,13 @@ class Mcpbundles < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/e5/3f/143b048436775b0f76ac3eec145c019e8173ccc2885c8f20319b996d5e83/charset_normalizer-3.5.1.tar.gz"
-    sha256 "6117b84ea48435e5356dc737f5121485c30920ba43375fa7b434fd753df0eac3"
+    url "https://files.pythonhosted.org/packages/33/1c/f41d4e74c28ab327ff3acd36053f7ea506c55872d7a90b0fa71aa3ab0c89/charset_normalizer-3.5.2.tar.gz"
+    sha256 "39de2a259fc954455c57274dc94c79d5842774e1247a016aff30bc0efed0f4ef"
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/c7/0e/7fa0ef50764b67090eca4114772a2abf8b6148198475e54c660b97caeee6/click-8.5.0.tar.gz"
-    sha256 "ba0d2089de75ea0310e2dde03160e6ca10009947fb95a182f9b54021bb272e34"
+    url "https://files.pythonhosted.org/packages/45/37/edbf1b0707709013c0cf2e8317e03d97ed29bf4cac709fe328904ae92a38/click-8.5.1.tar.gz"
+    sha256 "9bbfada76703fd1d784b83eea012e3e8c6a001a876543ef104fa56aaaeb072b4"
   end
 
   resource "cryptography" do
@@ -97,8 +97,8 @@ class Mcpbundles < Formula
   end
 
   resource "multidict" do
-    url "https://files.pythonhosted.org/packages/14/95/989c1b5ca17b72128661530cd6e351a0a83cda9a4d6c036e9ed976c18931/multidict-6.8.0.tar.gz"
-    sha256 "5cd4637ce76312ba1e05eb9c5193fec231f64fee0944e135fa1e951242355b37"
+    url "https://files.pythonhosted.org/packages/7b/6b/29ef8e752f5854dcc267ded0652c475bec99b86f255957a0d4fcad657b18/multidict-7.2.1.tar.gz"
+    sha256 "e8af3e6f1bdbc31fd762b094133b478b89988eaebc63cbe82b1d9e3bbd15cede"
   end
 
   resource "prompt-toolkit" do
@@ -112,8 +112,8 @@ class Mcpbundles < Formula
   end
 
   resource "pycparser" do
-    url "https://files.pythonhosted.org/packages/1b/7d/92392ff7815c21062bea51aa7b87d45576f649f16458d78b7cf94b9ab2e6/pycparser-3.0.tar.gz"
-    sha256 "600f49d217304a5902ac3c37e1281c9fe94e4d0489de643a9504c5cdfdfc6b29"
+    url "https://files.pythonhosted.org/packages/cb/27/eeb9f307bf07060f3d9f9aa0fb8c15b01bdfded0a941e4b2719c7f94cacd/pycparser-3.12.tar.gz"
+    sha256 "f03387877eab82ce01bbdfd0ba7252ee55a90b1c708d5129e2ce915475cf1db6"
   end
 
   resource "pygments" do
@@ -137,8 +137,8 @@ class Mcpbundles < Formula
   end
 
   resource "sentry-sdk" do
-    url "https://files.pythonhosted.org/packages/cc/08/1211e4652384195ef754f8ed570566088dc848f8eda7d005abf13f05f17f/sentry_sdk-2.69.2.tar.gz"
-    sha256 "b4d8915a526e626b0b14a2925907554b722d3b8e3e3781570fc35791712af323"
+    url "https://files.pythonhosted.org/packages/8e/7f/1b16ab4aee53cc5db976bac12e6df5d562aae3880965200cef812e7121d9/sentry_sdk-2.74.0.tar.gz"
+    sha256 "dd91d75aacaef636006b579ac3ddb2fdbc9dce35f00f4b353b6b1b110c6b256a"
   end
 
   resource "typing-extensions" do
@@ -152,13 +152,13 @@ class Mcpbundles < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/3d/7a/f98d4ada7c499565ab0c0fcef28a4e54fafa72b8228a6309803c80493c92/wcwidth-0.8.4.tar.gz"
-    sha256 "2dae09efa25253ae2874188e86d6861af3b1652aef4118cdf3f0bda288a957fb"
+    url "https://files.pythonhosted.org/packages/ea/01/e5ac23733628a6bbb91913a765fcf55ee8070d8d991bc88fdaaf805052c7/wcwidth-0.9.4.tar.gz"
+    sha256 "fd8d57d3cdfe570e3265c8fab1885c24e34ef40889c0759c0c304a19e9835954"
   end
 
   resource "websockets" do
-    url "https://files.pythonhosted.org/packages/18/72/fba934cb3dff7a85d811820efffcd141ddd52b5a2a01637f64551373ff4d/websockets-17.1.tar.gz"
-    sha256 "acfea4c20bf54384883ea33b1240fc1db4f52e190823a4e2b334bc3e8bfca96a"
+    url "https://files.pythonhosted.org/packages/75/79/590c5f0cc7d1661195aeefccb0e342b79f4c77d368d526d028821a390332/websockets-17.4.tar.gz"
+    sha256 "09d3939b70df0c8ad2da145ebd50978bccaee1d565e838b0e7921a34d38571eb"
   end
 
   resource "yarl" do
